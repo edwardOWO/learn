@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: git
+          image: docker.io/bitnami/git:2.48.0-debian-12-r0
+        - name: nginx
+          image: docker.io/bitnami/nginx:1.27.3-debian-12-r5
+        - name: nginx-exporter
+          image: docker.io/bitnami/nginx-exporter:1.4.1-debian-12-r0
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.27.3
+    created: "2025-01-25T04:01:52.186546706+08:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: 7b8ce509a2bd9a2a14f40d16af662a0b1c339674beb2c3c6e3a8b1bc55573aa9
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/nginx
+    urls:
+    - https://github.com/edwardOWO/learn/blob/main/nginx-18.3.5.tgz
+    version: 18.3.5
+generated: "2025-01-25T04:01:52.17627808+08:00"
