@@ -39,7 +39,7 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://github.com/edwardOWO/learn/blob/main/nginx-18.3.5.tgz
+    - https://github.com/edwardOWO/learn/nginx-18.3.5.tgz
     version: 18.3.5
 generated: "2025-01-25T04:01:52.17627808+08:00"
 
